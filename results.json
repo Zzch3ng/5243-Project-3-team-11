@@ -1,0 +1,74 @@
+{
+  "n_A": 35,
+  "n_B": 35,
+  "desc": [
+    {
+      "version": "A",
+      "n": 35,
+      "sections_mean": 2.771,
+      "sections_median": 3.0,
+      "sections_sd": 1.497,
+      "time_mean": 250.851,
+      "time_median": 209.6,
+      "time_sd": 227.94,
+      "bounce_rate": 0.057,
+      "export_rate": 0.057,
+      "complete_rate": 0.057
+    },
+    {
+      "version": "B",
+      "n": 35,
+      "sections_mean": 2.657,
+      "sections_median": 3.0,
+      "sections_sd": 1.814,
+      "time_mean": 211.526,
+      "time_median": 136.5,
+      "time_sd": 213.593,
+      "bounce_rate": 0.2,
+      "export_rate": 0.029,
+      "complete_rate": 0.029
+    }
+  ],
+  "shapiro": {
+    "sections_A": {
+      "W": 0.9375,
+      "p": 0.0471
+    },
+    "sections_B": {
+      "W": 0.9206,
+      "p": 0.0148
+    },
+    "time_A": {
+      "W": 0.7829,
+      "p": 0.0
+    },
+    "time_B": {
+      "W": 0.7989,
+      "p": 0.0
+    }
+  },
+  "tests": {
+    "sections": {
+      "U": 626.5,
+      "p": 0.8716,
+      "r": -0.0229
+    },
+    "time": {
+      "U": 695.0,
+      "p": 0.3355,
+      "r": -0.1347
+    },
+    "bounce": {
+      "OR": 4.125,
+      "p": 0.1506
+    },
+    "export": {
+      "OR": 0.4853,
+      "p": 1.0
+    },
+    "complete": {
+      "OR": 0.4853,
+      "p": 1.0
+    }
+  }
+}
