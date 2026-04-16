@@ -18,7 +18,13 @@ from scipy import stats
 
 # ── 1. Load & reshape ─────────────────────────────────────────────────────────
 
-wide = pd.read_csv("../ab_test_data_wide.csv", skiprows=1)
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "ab_test_data_wide.csv")
+if not os.path.exists(DATA_PATH):
+    raise FileNotFoundError(
+        f"Data file not found at {DATA_PATH}\n"
+        "Place ab_test_data_wide.csv one directory above the repo root."
+    )
+wide = pd.read_csv(DATA_PATH, skiprows=1)
 
 def extract_group(df, suffix):
     cols = {
