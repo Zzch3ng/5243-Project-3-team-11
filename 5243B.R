@@ -345,7 +345,6 @@ read_uploaded_data <- function(path, original_name) {
 }
 
 # Standardize text fields and column names before later cleaning steps.
-# In this project, the goal is to make inconsistent user-uploaded data more uniform before imputation.
 standardize_strings <- function(df) {
   df <- as.data.frame(df, stringsAsFactors = FALSE, check.names = FALSE)
   names(df) <- make.unique(clean_column_name(names(df)), sep = "_")
@@ -2028,7 +2027,6 @@ server <- function(input, output, session) {
   })
 
   # Keep feature-engineering and EDA selectors aligned with the transformed dataset.
-  # This is important because encoding and feature creation can change the available columns.
   observe({
     df <- featured_data()
     cols <- names(df)
