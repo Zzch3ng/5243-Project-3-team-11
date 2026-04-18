@@ -497,7 +497,6 @@ apply_column_missing_handling <- function(df, missing_info, strategy_lookup) {
 # ---- 4. Preprocessing Helpers ----
 
 # Use the IQR rule to either cap extreme values or remove outlier rows.
-# I used the IQR approach because it is simple, interpretable, and appropriate for an interactive class project.
 apply_outlier_handling <- function(df, method, target_columns) {
   if (identical(method, "none") || nrow(df) == 0) {
     return(df)
@@ -826,8 +825,7 @@ first_or_default <- function(x, default = character(0)) {
   if (length(x) == 0) default else x[[1]]
 }
 
-# Small guards used to keep the app quiet when a selected variable has no usable values.
-# For a class project, this is enough to prevent most console warnings without overcomplicating the app.
+# Small guards used to keep the app quiet when a selected variable has no usable values..
 has_non_missing_values <- function(x) {
   any(!is.na(x))
 }
@@ -2089,7 +2087,6 @@ server <- function(input, output, session) {
   })
 
   # Register one delete button per saved feature recipe.
-  # I kept this as a light-weight observer because it is easy to read in a class project and matches the UI list of recipes.
   observe({
     recipes <- feature_recipes()
 
@@ -2703,7 +2700,6 @@ server <- function(input, output, session) {
     layout(p, template = "plotly_white")
   })
 
-  # The insight panel is a more student-friendly way to explain one selected variable without forcing the user to read the whole summary table.
   output$stat_insight_ui <- renderUI({
     df <- filtered_data()
     x_var <- input$x_var
