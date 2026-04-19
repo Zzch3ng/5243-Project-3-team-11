@@ -28,7 +28,7 @@ This repository contains the Shiny applications and statistical analysis code fo
 └── README.md
 ```
 
-The raw data file `ab_test_data_wide.csv` lives one directory above the repo root and is **not** committed (contains session-level data).
+
 
 ---
 
