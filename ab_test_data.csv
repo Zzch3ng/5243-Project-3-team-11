@@ -1,0 +1,71 @@
+user_id,version,sections_visited,engagement_time_sec,event_count,bounced,reached_export,completed_workflow,tabs_visited
+A_001,A,1,140.6,8,0,0,0,Load Data
+A_002,A,2,1223.3,34,0,0,0,Load Data|Cleaning
+A_003,A,1,375.4,19,0,0,0,Load Data
+A_004,A,2,87.3,40,0,0,0,Load Data|Cleaning
+A_005,A,6,105.8,106,0,1,1,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization|Export
+A_006,A,0,18.0,2,1,0,0,User Guide only
+A_007,A,5,340.5,76,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+A_008,A,2,234.1,16,0,0,0,Load Data|Cleaning
+A_009,A,3,64.6,50,0,0,0,Load Data|Cleaning|Preprocessing
+A_010,A,3,187.9,48,0,0,0,Load Data|Cleaning|Preprocessing
+A_011,A,3,537.0,26,0,0,0,Load Data|Cleaning|Preprocessing
+A_012,A,1,461.9,14,0,0,0,Load Data
+A_013,A,2,388.7,37,0,0,0,Load Data|Cleaning
+A_014,A,4,209.6,86,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+A_015,A,0,8.9,2,1,0,0,User Guide only
+A_016,A,2,229.7,2,0,0,0,Load Data|Cleaning
+A_017,A,1,445.0,14,0,0,0,Load Data
+A_018,A,5,68.2,75,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+A_019,A,3,437.3,31,0,0,0,Load Data|Cleaning|Preprocessing
+A_020,A,6,62.5,105,0,1,1,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization|Export
+A_021,A,3,420.9,66,0,0,0,Load Data|Cleaning|Preprocessing
+A_022,A,3,412.5,60,0,0,0,Load Data|Cleaning|Preprocessing
+A_023,A,3,148.3,61,0,0,0,Load Data|Cleaning|Preprocessing
+A_024,A,4,90.6,47,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+A_025,A,4,50.3,57,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+A_026,A,2,60.0,29,0,0,0,Load Data|Cleaning
+A_027,A,3,116.5,65,0,0,0,Load Data|Cleaning|Preprocessing
+A_028,A,3,294.1,44,0,0,0,Load Data|Cleaning|Preprocessing
+A_029,A,5,217.0,22,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+A_030,A,1,337.0,11,0,0,0,Load Data
+A_031,A,3,138.5,41,0,0,0,Load Data|Cleaning|Preprocessing
+A_032,A,3,434.3,38,0,0,0,Load Data|Cleaning|Preprocessing
+A_033,A,3,250.0,23,0,0,0,Load Data|Cleaning|Preprocessing
+A_034,A,3,133.8,68,0,0,0,Load Data|Cleaning|Preprocessing
+A_035,A,2,49.7,38,0,0,0,Load Data|Cleaning
+B_001,B,3,289.5,91,0,0,0,Load Data|Cleaning|Preprocessing
+B_002,B,3,164.9,44,0,0,0,Load Data|Cleaning|Preprocessing
+B_003,B,5,97.2,134,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+B_004,B,3,228.8,56,0,0,0,Load Data|Cleaning|Preprocessing
+B_005,B,6,198.8,124,0,1,1,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization|Export
+B_006,B,4,253.1,67,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+B_007,B,0,19.0,3,1,0,0,User Guide only
+B_008,B,4,253.1,103,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+B_009,B,2,125.6,33,0,0,0,Load Data|Cleaning
+B_010,B,5,483.0,82,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+B_011,B,2,428.5,27,0,0,0,Load Data|Cleaning
+B_012,B,0,18.9,1,1,0,0,User Guide only
+B_013,B,2,691.1,19,0,0,0,Load Data|Cleaning
+B_014,B,5,123.8,20,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+B_015,B,2,128.5,40,0,0,0,Load Data|Cleaning
+B_016,B,1,46.4,19,0,0,0,Load Data
+B_017,B,0,12.1,2,1,0,0,User Guide only
+B_018,B,2,231.7,35,0,0,0,Load Data|Cleaning
+B_019,B,0,25.0,2,1,0,0,User Guide only
+B_020,B,0,8.7,2,1,0,0,User Guide only
+B_021,B,3,536.9,34,0,0,0,Load Data|Cleaning|Preprocessing
+B_022,B,3,359.7,40,0,0,0,Load Data|Cleaning|Preprocessing
+B_023,B,0,19.4,1,1,0,0,User Guide only
+B_024,B,5,165.1,96,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+B_025,B,0,24.1,3,1,0,0,User Guide only
+B_026,B,3,165.5,74,0,0,0,Load Data|Cleaning|Preprocessing
+B_027,B,4,121.1,54,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+B_028,B,2,103.9,24,0,0,0,Load Data|Cleaning
+B_029,B,2,118.6,32,0,0,0,Load Data|Cleaning
+B_030,B,4,1019.0,30,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+B_031,B,3,311.6,47,0,0,0,Load Data|Cleaning|Preprocessing
+B_032,B,5,94.3,62,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
+B_033,B,1,96.5,29,0,0,0,Load Data
+B_034,B,4,303.5,76,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering
+B_035,B,5,136.5,75,0,0,0,Load Data|Cleaning|Preprocessing|Feature Engineering|EDA / Visualization
